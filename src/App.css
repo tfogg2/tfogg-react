@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header{
+  height: 60px;
+  background: #fff;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 5%;
+}
+header h1{
+  margin: 0;
+  color: #000;
+  font-weight: 300;
+  font-size: 24px;
+}
+.home{
+  background: #fff;
+  overflow: overlay;
+}
+.splash-background{
+  height: 700px;
+  width: 100%;
+  background: #000;
+  position: absolute;
+}
+.home-bg{
+  background-color: #fff;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  position: absolute;
+  transform:translate3d(0, 0, 0.1);
+  transition: opacity 2s .3s;
+  will-change: transform;
+  opacity: 0;
+}
+.home-bg.visible{
+  opacity: 1;
+}
+.home-cta{
+  width: 90%;
+  text-align: left;
+  margin: 0 5%;
+  height: 700px;
+  box-sizing: border-box;
+  padding-top: 40px;
+  position: relative;
+}
