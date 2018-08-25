@@ -27,6 +27,7 @@ class Home extends Component {
         </div>
         <div className="camuro page"></div>
         <div className="abundant page"></div>
+        <div className="freedash page"></div>
         <div className="skill page"></div>
         <div className="passion page"></div>
         <div className="contact page"></div>
