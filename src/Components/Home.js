@@ -25,9 +25,15 @@ class Home extends Component {
             <div className={homeClass}></div>
           </div>
         </div>
-        <div className="camuro page"></div>
-        <div className="abundant page"></div>
-        <div className="freedash page"></div>
+        <div className="camuro page">
+          <img src={require('../Assets/camuro-mockup-4.svg')} alt="camuro mockup" />
+        </div>
+        <div className="freedash page">
+          <img src={require('../Assets/freedash-mockup.svg')} alt="abundant mockup" />
+        </div>
+        <div className="abundant page">
+          <img src={require('../Assets/alf-mockup.svg')} alt="abundant mockup" />
+        </div>
         <div className="skill page"></div>
         <div className="passion page"></div>
         <div className="contact page"></div>

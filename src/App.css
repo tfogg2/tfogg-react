@@ -21,9 +21,14 @@ header h1{
   overflow: overlay;
 }
 .page{
-  min-height: 600px;
+  min-height: 300px;
   width: 100%;
   background: #fff;
+  padding: 100px 0 0 0;
+}
+.page img{
+  width: 80%;
+  margin: 0 10%;
 }
 .landing{
   background: #FAFAFA;
