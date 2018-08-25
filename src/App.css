@@ -20,7 +20,33 @@ header h1{
   background: #fff;
   overflow: overlay;
 }
-.splash-background{
+.page{
+  min-height: 600px;
+  width: 100%;
+  background: #fff;
+}
+.landing{
+  background: #FAFAFA;
+}
+.camuro{
+  background: #FFBA4A;
+}
+.abundant{
+  background: #e9f3d9;
+}
+.skill{
+  background: #4180F4;
+}
+.passion{
+  background: #F1C7FF;
+}
+.contact{
+  background: #FAFAFA;
+}
+
+
+
+/* .splash-background{
   height: 700px;
   width: 100%;
   background: #000;
@@ -29,7 +55,6 @@ header h1{
 .home-bg{
   background-color: #fff;
   background-size: cover;
-  height: 700px;
   width: 100%;
   position: absolute;
   transform:translate3d(0, 0, 0.1);
@@ -48,4 +73,4 @@ header h1{
   box-sizing: border-box;
   padding-top: 40px;
   position: relative;
-}
+} */
