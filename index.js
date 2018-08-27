@@ -1,7 +1,4 @@
 const express = require('express')
-const nodemailer = require('nodemailer')
-const sgTransport = require('nodemailer-sendgrid-transport')
-const bodyParser = require('body-parser')
 const app = express()
 const path = require('path')
 
