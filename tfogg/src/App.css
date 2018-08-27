@@ -31,25 +31,25 @@ header h1{
   padding-bottom: 0px;
 }
 .page.landing .linkedIn{
-  background: url('./Assets/LinkedIn-black.svg') no-repeat;
+  background: url('./Assets/linkedIn-black.svg') no-repeat;
   transition: background-image .75s ease;
 }
 .page.landing .instagram{
-  background: url('./Assets/Instagram-black.svg') no-repeat;
+  background: url('./Assets/instagram-black.svg') no-repeat;
   transition: background-image .75s ease;
 }
 .page.landing .github{
-  background: url('./Assets/Github-black.svg') no-repeat;
+  background: url('./Assets/github-black.svg') no-repeat;
   transition: background-image .75s ease;
 }
 .page.landing .linkedIn:hover{
-  background: url('./Assets/LinkedIn-color.svg') no-repeat;
+  background: url('./Assets/linkedIn-color.svg') no-repeat;
 }
 .page.landing .instagram:hover{
-  background: url('./Assets/Instagram-color.svg') no-repeat;
+  background: url('./Assets/instagram-color.svg') no-repeat;
 }
 .page.landing .github:hover{
-  background: url('./Assets/Github-color.svg') no-repeat;
+  background: url('./Assets/github-color.svg') no-repeat;
 }
 .cta{
   width: 80%;
