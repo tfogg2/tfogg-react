@@ -24,7 +24,14 @@ header h1{
 .page{
   width: 100%;
   background: #fff;
-  padding: 100px 0 0 0;
+  padding-top: 50px;
+}
+.page span{
+  float: left;
+  width: 100%;
+  margin-bottom: 50px;
+  padding-left: 10%;
+  color: #fff
 }
 .page img{
   width: 80%;
@@ -85,8 +92,7 @@ header h1{
 }
 .skill{
   background: #4180F4;
-  padding: 100px 0 100px 0;
-  text-align: center;
+  padding-bottom: 50px;
 }
 .icons{
   width: 80%;
@@ -94,7 +100,7 @@ header h1{
   min-width: 400px;
   margin: 0 auto;
 }
-.icon {
+/* .icon {
   display: inline-block;
   width: 20%;
   margin: 40px 20px 0 0;
@@ -107,14 +113,13 @@ header h1{
   margin-left: 10px;
   opacity: 0;
   transition: opacity .2s ease-in-out;
-}
-.icon img{
-  width: 100%;
+} */
+/* .icon img{
   transition: all .2s ease-in-out;
 }
 .icons img:hover{
   transform: scale(1.1);
-}
+} */
 
 .passion{
   background: #F1C7FF;
