@@ -9,19 +9,7 @@ import Passion from './Passion'
 import Footer from './Footer'
 
 class Home extends Component {
-  state = {
-    loaded: false
-  }
-  componentDidMount() {
-    _.delay( () => {
-      this.setState({
-        loaded: true
-      })
-    }, 200 )
-  }
-
   render(){
-    const homeClass = this.state.loaded ? 'home-bg visible' : 'home-bg'
     return(
 
       <div className="content">
