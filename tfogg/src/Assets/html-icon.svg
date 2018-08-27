@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="255px" height="254px" viewBox="0 0 255 254" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>html-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="23.5222222" y="23.5222222" width="195.477778" height="194.666667" rx="15"></rect>
+        <filter x="-21.7%" y="-21.8%" width="148.6%" height="148.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.296393795 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(-40.000000, -40.000000)">
+            <g id="Group-2" transform="translate(41.000000, 41.000000)">
+                <g id="html-icon">
+                    <g id="Rectangle-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="219" height="219" rx="17"></rect>
+                    <g id="HTML" transform="translate(39.000000, 31.000000)">
+                        <polygon id="Shape-Copy-123" fill="#11907C" fill-rule="nonzero" points="141.754777 157.434675 20.7223399 157.434675 20.7223399 0 103.932141 0 141.754777 37.4844464"></polygon>
+                        <polygon id="Shape-Copy-122" fill="#37D2BA" fill-rule="nonzero" points="136.58287 41.5308926 100.651365 41.5308926 100.651365 5.92066854"></polygon>
+                        <rect id="Rectangle-5-Copy-98" fill="#0D6254" x="0" y="23.6826742" width="81.4091924" height="41.4446798" rx="4"></rect>
+                        <path d="M23.5576405,53.2860169 L19.8716774,53.2860169 L19.8716774,45.6192137 L12.6840494,45.6192137 L12.6840494,53.2860169 L8.99808634,53.2860169 L8.99808634,35.3968094 L12.6840494,35.3968094 L12.6840494,42.6458701 L19.8716774,42.6458701 L19.8716774,35.3968094 L23.5576405,35.3968094 L23.5576405,53.2860169 Z M39.2470247,38.3824395 L33.7672263,38.3824395 L33.7672263,53.2860169 L30.0812632,53.2860169 L30.0812632,38.3824395 L24.675184,38.3824395 L24.675184,35.3968094 L39.2470247,35.3968094 L39.2470247,38.3824395 Z M45.5249166,35.3968094 L50.1200839,48.3713994 L54.6906781,35.3968094 L59.5315763,35.3968094 L59.5315763,53.2860169 L55.8333267,53.2860169 L55.8333267,48.3959725 L56.201923,39.9551171 L51.3733113,53.2860169 L48.8422833,53.2860169 L44.0259583,39.9674036 L44.3945546,48.3959725 L44.3945546,53.2860169 L40.7085915,53.2860169 L40.7085915,35.3968094 L45.5249166,35.3968094 Z M65.7971816,50.3249599 L73.6237098,50.3249599 L73.6237098,53.2860169 L62.1112185,53.2860169 L62.1112185,35.3968094 L65.7971816,35.3968094 L65.7971816,50.3249599 Z" fill="#37D2BA"></path>
+                        <path d="M48.8455155,106.537342 L71.0133311,128.705158 L79.4433455,120.275144 L65.60147,106.537342 L79.4433455,92.6954668 L71.0133311,84.3695267 L48.8455155,106.537342 Z M114.932665,106.537342 L92.7648497,84.3695267 L84.3348353,92.6954668 L98.1767108,106.537342 L84.3348353,120.275144 L92.7648497,128.705158 L114.932665,106.537342 Z" id="" fill="#37D2BA"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

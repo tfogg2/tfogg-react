@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="255px" height="254px" viewBox="0 0 255 254" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>javascript-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="22.7111111" y="23.5222222" width="195.477778" height="194.666667" rx="15"></rect>
+        <filter x="-21.7%" y="-21.8%" width="148.6%" height="148.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.296393795 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(-318.000000, -40.000000)">
+            <g id="Group-2" transform="translate(41.000000, 41.000000)">
+                <g id="javascript-icon" transform="translate(279.000000, 0.000000)">
+                    <g id="Rectangle-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="219" height="219" rx="17"></rect>
+                    <g id="if_code-programming-javascript-software-develop-command-language_652581" transform="translate(34.066667, 34.066667)" fill-rule="nonzero">
+                        <circle id="Oval" fill="#F0DB4F" cx="75.4333333" cy="75.4333333" r="75.4333333"></circle>
+                        <g id="Layer_1_1_" transform="translate(34.712684, 44.725959)" fill="#323330">
+                            <g id="Group">
+                                <path d="M17.230389,0.90119469 L30.3798965,0.90119469 L30.3798965,37.6999779 C30.3798965,54.2218805 22.369277,60.079646 9.67320087,60.079646 C6.49918183,60.079646 2.56944398,59.6290487 -7.10542736e-15,58.727854 L1.51143764,48.0637168 C3.3251628,48.6645133 5.74346302,49.1151106 8.312907,49.1151106 C13.9052262,49.1151106 17.3815328,46.5617257 17.3815328,37.6999779 L17.230389,0.90119469 Z" id="Shape"></path>
+                                <path d="M42.0179663,45.660531 C45.4942728,47.4629204 51.0865921,49.2653097 56.6789113,49.2653097 C62.7246619,49.2653097 65.8986809,46.7119248 65.8986809,42.8067478 C65.8986809,39.201969 63.1780932,37.0991814 56.0743363,34.6959956 C46.4011354,31.2414159 39.9019536,25.8342478 39.9019536,17.2728982 C39.9019536,7.50995575 48.3660043,0 62.1200868,0 C68.7704124,0 73.6070129,1.35179204 77.0833194,3.0039823 L74.0604441,13.5179204 C71.7932877,12.4665265 67.5612623,10.8143363 61.9689431,10.8143363 C56.22548,10.8143363 53.5048923,13.5179204 53.5048923,16.3717035 C53.5048923,20.1266814 56.6789113,21.7788717 64.3872433,24.6326549 C74.6650192,28.3876327 79.5016196,33.7948009 79.5016196,42.0557522 C79.5016196,51.8186947 72.0955752,60.079646 55.9231925,60.079646 C49.2728669,60.079646 42.6225413,58.2772566 39.2973785,56.4748673 L42.0179663,45.660531 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

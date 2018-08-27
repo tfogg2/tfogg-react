@@ -1,0 +1,40 @@
+{
+  "name": "tfogg-react",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.10",
+    "nodemailer": "^4.6.8",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-image-gallery": "^0.8.10",
+    "react-mailto": "^0.4.0",
+    "react-protected-mailto": "^1.0.3",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/tfogg2/tfogg-react.git"
+  },
+  "keywords": [
+    "tfogg"
+  ],
+  "author": "Thomas Fogg",
+  "license": "ISC"
+}
