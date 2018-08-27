@@ -1,4 +1,4 @@
-@import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
+@import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
 
 /* GENERAL */
 body {
@@ -32,25 +32,25 @@ header h1{
   padding-bottom: 0px;
 }
 .page.landing .linkedIn{
-  background: url('./linkedin-black.svg') no-repeat;
+  background: url('./Assets/linkedin-black.svg') no-repeat;
   transition: background-image .75s ease;
 }
 .page.landing .instagram{
-  background: url('./instagram-black.svg') no-repeat;
+  background: url('./Assets/instagram-black.svg') no-repeat;
   transition: background-image .75s ease;
 }
 .page.landing .github{
-  background: url('./github-black.svg') no-repeat;
+  background: url('./Assets/github-black.svg') no-repeat;
   transition: background-image .75s ease;
 }
 .page.landing .linkedIn:hover{
-  background: url('./linkedin-color.svg') no-repeat;
+  background: url('./Assets/linkedin-color.svg') no-repeat;
 }
 .page.landing .instagram:hover{
-  background: url('./instagram-color.svg') no-repeat;
+  background: url('./Assets/instagram-color.svg') no-repeat;
 }
 .page.landing .github:hover{
-  background: url('./github-color.svg') no-repeat;
+  background: url('./Assets/github-color.svg') no-repeat;
 }
 .cta{
   width: 80%;
