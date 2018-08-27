@@ -30,10 +30,7 @@ header h1{
   padding-top: 20px;
   padding-bottom: 0px;
 }
-.page.landing .linkedIn{
-  background: url('./assets/LinkedIn-black.svg') no-repeat;
-  transition: background-image .75s ease;
-}
+
 .page.landing .instagram{
   background: url('./assets/Instagram-black.svg') no-repeat;
   transition: background-image .75s ease;
