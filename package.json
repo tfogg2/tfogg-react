@@ -10,6 +10,8 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-image-gallery": "^0.8.10",
+    "react-mailto": "^0.4.0",
+    "react-protected-mailto": "^1.0.3",
     "react-reveal": "^1.2.2",
     "react-scripts": "1.1.5"
   },

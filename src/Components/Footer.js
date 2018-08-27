@@ -1,14 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
+import Fade from 'react-reveal/Fade'
+
 
 class Footer extends Component {
   render(){
     return(
 
-      <footer></footer>
+      <footer className="footer page">
+        <Fade left>
+          <span>Created by Thomas Fogg</span>
+        </Fade>
+      </footer>
 
     )
   }
 }
-
 
 export default Footer;

@@ -6,7 +6,6 @@ import Freedash from './Freedash'
 import Abundant from './Abundant'
 import Skill from './Skill'
 import Passion from './Passion'
-import Contact from './Contact'
 import Footer from './Footer'
 
 class Home extends Component {
@@ -32,7 +31,6 @@ class Home extends Component {
         <Abundant />
         <Skill />
         <Passion />
-        <Contact />
         <Footer />
       </div>
 

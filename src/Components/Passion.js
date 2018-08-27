@@ -16,24 +16,20 @@ class Passion extends Component {
         thumbnail: require('../Assets/camp-small.svg')
       },
       {
-        original: require('../Assets/ford-air.svg'),
-        thumbnail: require('../Assets/ford-air-small.svg')
+        original: require('../Assets/snow.svg'),
+        thumbnail: require('../Assets/snow-small.svg')
       },
       {
         original: require('../Assets/maine.svg'),
         thumbnail: require('../Assets/maine-small.svg')
       },
       {
-        original: require('../Assets/snow.svg'),
-        thumbnail: require('../Assets/snow-small.svg')
+        original: require('../Assets/ford-air.svg'),
+        thumbnail: require('../Assets/ford-air-small.svg')
       },
       {
         original: require('../Assets/rosa.svg'),
         thumbnail: require('../Assets/rosa-small.svg')
-      },
-      {
-        original: require('../Assets/will.svg'),
-        thumbnail: require('../Assets/will-small.svg')
       },
       {
         original: require('../Assets/pup.svg'),
@@ -48,9 +44,7 @@ class Passion extends Component {
     return(
 
       <div className="passion">
-        <Fade left>
-          <ImageGallery items={images} />
-        </Fade>
+        <ImageGallery items={images} />
       </div>
 
     )

@@ -9,8 +9,10 @@ class Freedash extends Component {
         <Fade left>
           <span>.002</span>
           <img src={require('../Assets/freedash-mockup.svg')} alt="abundant mockup" />
-          <h2></h2>
-          <p></p>
+          <div className="page-info">
+            <p>Founder, Designer & Developer</p>
+            <a href="http://freedash.io" alt="freedash.io" target="_blank"><h2>Freedash.io</h2></a>
+          </div>
         </Fade>
       </div>
 
