@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 header{
   height: 60px;
@@ -29,9 +30,49 @@ header h1{
   width: 80%;
   margin: 0 10%;
 }
-.landing{
-  height: 82vh;
+.content{
   background: #FAFAFA;
+}
+.landing{
+  height: 85vh;
+}
+.cta{
+  width: 80%;
+  margin: 50px auto;
+}
+.cta .cta-header img{
+  width: 300px;
+  margin: 0;
+}
+.cta .cta-body p{
+  margin: 40px 0;
+}
+.cta .cta-body .social-icons{
+  width: 162px;
+}
+.cta .cta-body .social-icons img{
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  margin-right: 30px;
+}
+.cta .cta-body button{
+  margin: 40px 0;
+  width: 162px;
+  height: 40px;
+  border: 0;
+  border-radius: 20px;
+  background: #4180f4;
+  color: #fff;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 100;
+  outline: 0;
+  cursor: pointer;
+  transition: opacity .5s ease;
+}
+.cta .cta-body button:hover{
+  opacity: .8;
 }
 .camuro{
   background: #FFBA4A;
@@ -82,7 +123,17 @@ header h1{
   background: #FAFAFA;
 }
 
-
+@media (min-width: 990px) {
+  .content .page.landing{
+    position: fixed;
+    width: 40%;
+    height: 100%;
+  }
+  .content .page{
+    width: 60%;
+    float: right
+  }
+}
 
 /* .splash-background{
   height: 700px;
