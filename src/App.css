@@ -30,23 +30,26 @@ header h1{
   padding-top: 20px;
   padding-bottom: 0px;
 }
-
+.page.landing .linkedIn{
+  background: url('./Assets/LinkedIn-black.svg') no-repeat;
+  transition: background-image .75s ease;
+}
 .page.landing .instagram{
-  background: url('./assets/Instagram-black.svg') no-repeat;
+  background: url('./Assets/Instagram-black.svg') no-repeat;
   transition: background-image .75s ease;
 }
 .page.landing .github{
-  background: url('./assets/Github-black.svg') no-repeat;
+  background: url('./Assets/Github-black.svg') no-repeat;
   transition: background-image .75s ease;
 }
 .page.landing .linkedIn:hover{
-  background: url('./assets/LinkedIn-color.svg') no-repeat;
+  background: url('./Assets/LinkedIn-color.svg') no-repeat;
 }
 .page.landing .instagram:hover{
-  background: url('./assets/Instagram-color.svg') no-repeat;
+  background: url('./Assets/Instagram-color.svg') no-repeat;
 }
 .page.landing .github:hover{
-  background: url('./assets/Github-color.svg') no-repeat;
+  background: url('./Assets/Github-color.svg') no-repeat;
 }
 .cta{
   width: 80%;
