@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import _ from 'lodash'
 import Fade from 'react-reveal/Fade'
-
+import Mailto from 'react-mailto'
 
 class Landing extends Component {
   render(){
@@ -20,7 +20,9 @@ class Landing extends Component {
                 <a href="https://www.instagram.com/tfogg2/?hl=en" alt="Thomas Fogg Instagram" target="_blank"><span className="instagram"></span></a>
                 <a href="https://github.com/tfogg2" alt="Thomas Fogg Github" target="_blank"><span className="github"></span></a>
               </div>
-              <button>Say Hello!</button>
+              <Mailto email="foggts@g.cofc.edu" obfuscate={true}>
+                <button>Say Hello!</button>
+              </Mailto>
             </div>
           </div>
         </Fade>
