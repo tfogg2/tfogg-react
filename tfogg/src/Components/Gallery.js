@@ -15,16 +15,12 @@ class Gallery extends Component {
         thumbnail: require('../Assets/camp-small.png')
       },
       {
-        original: require('../Assets/snow.svg'),
-        thumbnail: require('../Assets/snow-small.png')
-      },
-      {
         original: require('../Assets/maine.svg'),
         thumbnail: require('../Assets/maine-small.png')
       },
       {
-        original: require('../Assets/burlington.png'),
-        thumbnail: require('../Assets/burlington-small.png')
+        original: require('../Assets/snow.svg'),
+        thumbnail: require('../Assets/snow-small.png')
       },
       {
         original: require('../Assets/nc-water.png'),
