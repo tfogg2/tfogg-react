@@ -10,7 +10,7 @@ class Abundant extends Component {
           <span>.003</span>
           <img src={require('../Assets/shopify-mockup.svg')} alt="abundant mockup" />
           <div className="page-info">
-            <p>Backend Shopify Developer</p>
+            <p>Back-End Shopify Developer</p>
             <a href="#" alt="abundant life foods"><h2>Abundantlifefoods.com</h2></a>
           </div>
         </Fade>
