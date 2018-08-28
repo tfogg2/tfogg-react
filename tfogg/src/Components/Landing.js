@@ -19,7 +19,7 @@ class Landing extends Component {
                 <a href="https://www.instagram.com/tfogg2/?hl=en" alt="Thomas Fogg Instagram" target="_blank"><span className="instagram"></span></a>
                 <a href="https://github.com/tfogg2" alt="Thomas Fogg Github" target="_blank"><span className="github"></span></a>
               </div>
-              <a mailto="tfogg2@gmail.com"><button>Say Hello!</button></a>
+              <a href="mailto:tfogg2@gmail.com" alt="say hello"><button>Say Hello!</button></a>
             </div>
           </div>
         </Fade>

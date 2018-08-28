@@ -54,7 +54,9 @@ header h1{
 }
 .cta{
   width: 80%;
-  margin: 50px 40px;
+  margin: 50px 40px 0 40px;
+  padding-bottom: 30px;
+}
 }
 .cta .cta-header img{
   width: 300px;
