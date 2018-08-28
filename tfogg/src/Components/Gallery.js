@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import ImageGallery from 'react-image-gallery'
-import Fade from 'react-reveal/Fade'
 
 
 class Gallery extends Component {
@@ -9,43 +8,41 @@ class Gallery extends Component {
     const images = [
       {
         original: require('../Assets/kodi.svg'),
-        thumbnail: require('../Assets/kodi-small.svg')
+        thumbnail: require('../Assets/kodi-small.png')
       },
       {
         original: require('../Assets/camp.svg'),
-        thumbnail: require('../Assets/camp-small.svg')
+        thumbnail: require('../Assets/camp-small.png')
       },
       {
         original: require('../Assets/snow.svg'),
-        thumbnail: require('../Assets/snow-small.svg')
+        thumbnail: require('../Assets/snow-small.png')
       },
       {
         original: require('../Assets/maine.svg'),
-        thumbnail: require('../Assets/maine-small.svg')
+        thumbnail: require('../Assets/maine-small.png')
       },
       {
         original: require('../Assets/ford-air.svg'),
-        thumbnail: require('../Assets/ford-air-small.svg')
+        thumbnail: require('../Assets/ford-air-small.png')
       },
       {
         original: require('../Assets/rosa.svg'),
-        thumbnail: require('../Assets/rosa-small.svg')
+        thumbnail: require('../Assets/rosa-small.png')
       },
       {
         original: require('../Assets/pup.svg'),
-        thumbnail: require('../Assets/pup-small.svg')
+        thumbnail: require('../Assets/pup-small.png')
       },
       {
         original: require('../Assets/ford.svg'),
-        thumbnail: require('../Assets/ford-small.svg')
+        thumbnail: require('../Assets/ford-small.png')
       },
     ]
 
     return(
       <div className="gallery">
-        <Fade left>
-          <ImageGallery items={images} />
-        </Fade>
+        <ImageGallery items={images} />
       </div>
     )
   }
