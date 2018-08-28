@@ -14,7 +14,7 @@ class Landing extends Component {
               <img src={require('../Assets/cta-header.svg')} alt="cta header" />
             </div>
             <div className="cta-body">
-              <p>Thomas Fogg is a full stack developer making beautiful projects with outstanding people. See his work, skills and photos below.</p>
+              <p>Thomas Fogg is a full stack developer doing cool things with outstanding people. See some of his work, skills and photos below.</p>
               <div className="social-icons">
                 <a href="https://www.linkedin.com/in/thomas-fogg-95a88313b/" alt="Thomas Fogg LinkedIn" target="_blank"><span className="linkedIn"></span></a>
                 <a href="https://www.instagram.com/tfogg2/?hl=en" alt="Thomas Fogg Instagram" target="_blank"><span className="instagram"></span></a>
