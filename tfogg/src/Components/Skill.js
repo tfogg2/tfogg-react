@@ -9,7 +9,7 @@ class Skill extends Component {
           <div className="display-content">
             <span>.004</span>
             <div className="icons">
-              <div className="icon"><img src={require('../Assets/icons.svg')} alt="skill icons"/></div>
+              <div className="icon"><img src={require('../Assets/icons-2.svg')} alt="skill icons"/></div>
             </div>
             <div className="page-info">
               <p>Some of my skills</p>
