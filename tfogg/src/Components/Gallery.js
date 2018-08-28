@@ -23,8 +23,12 @@ class Gallery extends Component {
         thumbnail: require('../Assets/maine-small.png')
       },
       {
-        original: require('../Assets/ford-air.svg'),
-        thumbnail: require('../Assets/ford-air-small.png')
+        original: require('../Assets/burlington.png'),
+        thumbnail: require('../Assets/burlington-small.png')
+      },
+      {
+        original: require('../Assets/nc-water.png'),
+        thumbnail: require('../Assets/nc-water-small.png')
       },
       {
         original: require('../Assets/rosa.svg'),
@@ -35,8 +39,24 @@ class Gallery extends Component {
         thumbnail: require('../Assets/pup-small.png')
       },
       {
-        original: require('../Assets/ford.svg'),
-        thumbnail: require('../Assets/ford-small.png')
+        original: require('../Assets/charleston-water.png'),
+        thumbnail: require('../Assets/charleston-water-small.png')
+      },
+      {
+        original: require('../Assets/kodi-eyes.png'),
+        thumbnail: require('../Assets/kodi-eyes-small.png')
+      },
+      {
+        original: require('../Assets/ford-air.svg'),
+        thumbnail: require('../Assets/ford-air-small.png')
+      },
+      {
+        original: require('../Assets/st-john-flight.png'),
+        thumbnail: require('../Assets/st-john-flight-small.png')
+      },
+      {
+        original: require('../Assets/sushi.png'),
+        thumbnail: require('../Assets/sushi-small.png')
       },
     ]
 
