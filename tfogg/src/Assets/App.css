@@ -226,7 +226,7 @@ header h1{
     float: right
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .content .page{
     height: 100vh;
     min-height: 440px;
