@@ -6,7 +6,7 @@ class Footer extends Component {
   render(){
     return(
 
-      <footer className="footer page">
+      <footer className="footer">
         <Fade bottom>
           <span>Created by Thomas Fogg</span>
         </Fade>
