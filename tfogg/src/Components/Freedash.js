@@ -4,7 +4,6 @@ import Fade from 'react-reveal/Fade'
 class Freedash extends Component {
   render(){
     return(
-
       <div className="freedash page">
         <Fade left>
           <span>.002</span>
@@ -15,7 +14,6 @@ class Freedash extends Component {
           </div>
         </Fade>
       </div>
-
     )
   }
 }

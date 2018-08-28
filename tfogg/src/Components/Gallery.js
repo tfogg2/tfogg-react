@@ -3,7 +3,7 @@ import ImageGallery from 'react-image-gallery'
 import Fade from 'react-reveal/Fade'
 
 
-class Passion extends Component {
+class Gallery extends Component {
   render(){
 
     const images = [
@@ -42,14 +42,14 @@ class Passion extends Component {
     ]
 
     return(
-
-      <div className="passion">
-        <ImageGallery items={images} />
+      <div className="gallery">
+        <Fade left>
+          <ImageGallery items={images} />
+        </Fade>
       </div>
-
     )
   }
 }
 
 
-export default Passion;
+export default Gallery;

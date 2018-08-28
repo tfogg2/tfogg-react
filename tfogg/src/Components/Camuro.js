@@ -4,7 +4,6 @@ import Fade from 'react-reveal/Fade'
 class Camuro extends Component {
   render(){
     return(
-
       <div className="camuro page">
         <Fade left>
           <span>.001</span>
@@ -15,7 +14,6 @@ class Camuro extends Component {
           </div>
         </Fade>
       </div>
-
     )
   }
 }

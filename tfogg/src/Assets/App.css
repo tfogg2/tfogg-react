@@ -175,11 +175,21 @@ header h1{
   min-width: 400px;
   margin: 0 auto;
 }
-.passion{
+.gallery{
   width: 100%;
   padding-top: 0px;
   position: relative;
   z-index: 100;
+}
+.page.contact{
+  height: 200px;
+  background: #ffa38c;
+}
+.page.contact h1{
+  font-size: 24px;
+  color: #fee9e4;
+  margin-left: 10%;
+  width: fit-content;
 }
 /* PAGES */
 
@@ -211,7 +221,7 @@ header h1{
     height: 100%;
     z-index: 200;
   }
-  .content .page, .passion{
+  .content .page, .gallery{
     width: 60%;
     float: right
   }

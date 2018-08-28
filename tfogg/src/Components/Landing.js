@@ -5,7 +5,6 @@ import Fade from 'react-reveal/Fade'
 class Landing extends Component {
   render(){
     return(
-
       <div className="landing page">
         <Fade left>
           <div className="cta">
@@ -24,7 +23,6 @@ class Landing extends Component {
           </div>
         </Fade>
       </div>
-
     )
   }
 }

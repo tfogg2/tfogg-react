@@ -4,7 +4,6 @@ import Fade from 'react-reveal/Fade'
 class Skill extends Component {
   render(){
     return(
-
       <div className="skill page">
         <Fade left>
           <span>.004</span>
@@ -17,7 +16,6 @@ class Skill extends Component {
           </div>
         </Fade>
       </div>
-
     )
   }
 }
