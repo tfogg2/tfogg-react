@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import _ from 'lodash'
 import Fade from 'react-reveal/Fade'
-import Mailto from 'react-mailto'
 
 class Landing extends Component {
   render(){
