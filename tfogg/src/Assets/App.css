@@ -248,4 +248,10 @@ header h1{
     padding-top: 0;
   }
 }
+@media (max-width: 400px) {
+  .content .page.landing img{
+    width: 80%;
+    padding: 0 10%;
+  }
+}
 /* MOBILE FRIENDLY */
