@@ -34,6 +34,7 @@
     "react-mailto": "^0.4.0",
     "react-router-dom": "^4.3.1",
     "readable-stream": "^3.0.3",
+    "set-blocking": "^2.0.0",
     "signal-exit": "^3.0.2",
     "string-width": "^2.1.1",
     "tunnel-agent": "^0.6.0",
