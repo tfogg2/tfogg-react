@@ -7,6 +7,10 @@ class Gallery extends Component {
 
     const images = [
       {
+        original: require('../Assets/profile-pic.svg'),
+        thumbnail: require('../Assets/profile-pic-small.png')
+      },
+      {
         original: require('../Assets/kodi.svg'),
         thumbnail: require('../Assets/kodi-small.png')
       },
