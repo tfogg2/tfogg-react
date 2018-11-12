@@ -7,6 +7,9 @@ body {
   font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+a{
+  text-decoration: none;
+}
 header{
   height: 60px;
   background: #fff;
@@ -126,12 +129,16 @@ header h1{
   padding-left: 10%;
   color: #fff
 }
+.page img:hover{
+  transform: scale(1.1);
+}
 .page.abundant span{
   color: #484848;
 }
 .page img{
   width: 80%;
   margin: 0 10%;
+  transition: all .25s ease-in-out;
 }
 .page .page-info{
   width: 265px;

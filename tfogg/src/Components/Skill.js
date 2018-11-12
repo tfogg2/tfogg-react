@@ -4,20 +4,22 @@ import Fade from 'react-reveal/Fade'
 class Skill extends Component {
   render(){
     return(
+
       <div className="skill page">
         <Fade left>
-          <div className="display-content">
+          <a href="https://github.com/tfogg2/tfogg-react" alt="tfogg.com on github" target="_blank">
             <span>.004</span>
             <div className="icons">
-              <div className="icon"><img src={require('../Assets/icons-2.svg')} alt="skill icons"/></div>
+              <div className="icon"><img src={require('../Assets/icons.svg')} alt="skill icons"/></div>
             </div>
             <div className="page-info">
-              <p>Some of my skills</p>
-              <a href="https://github.com/tfogg2/tfogg-backend" alt="tfogg.com on github" target="_blank"><h2>Tfogg.com on Github</h2></a>
+              <p>Some of My Skills</p>
+              <h2><b>Tfogg.com on Github</b></h2>
             </div>
-          </div>
+          </a>
         </Fade>
       </div>
+
     )
   }
 }
