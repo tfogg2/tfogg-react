@@ -7,12 +7,14 @@ class Abundant extends Component {
 
       <div className="abundant page">
         <Fade left>
-          <span>.003</span>
-          <img src={require('../Assets/shopify-mockup.svg')} alt="abundant mockup" />
-          <div className="page-info">
-            <p>Backend Shopify Developer</p>
-            <a href="#" alt="abundant life foods"><h2>Abundantlifefoods.com</h2></a>
-          </div>
+          <a href="#" alt="abundant life foods">
+            <span>.004</span>
+            <img src={require('../Assets/shopify-mockup.svg')} alt="abundant mockup" />
+            <div className="page-info">
+              <p>Shopify Developer</p>
+              <h2><b>Abundantlifefoods.com</b></h2>
+            </div>
+          </a>
         </Fade>
       </div>
 

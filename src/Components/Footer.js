@@ -7,7 +7,7 @@ class Footer extends Component {
     return(
 
       <footer className="footer page">
-        <Fade left>
+        <Fade bottom>
           <span>Created by Thomas Fogg</span>
         </Fade>
       </footer>

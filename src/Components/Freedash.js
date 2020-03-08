@@ -7,12 +7,14 @@ class Freedash extends Component {
 
       <div className="freedash page">
         <Fade left>
-          <span>.002</span>
-          <img src={require('../Assets/freedash-mockup.svg')} alt="abundant mockup" />
-          <div className="page-info">
-            <p>Founder, Designer & Developer</p>
-            <a href="http://freedash.io" alt="freedash.io" target="_blank"><h2>Freedash.io</h2></a>
-          </div>
+          <a href="#" alt="freedash.io" target="_blank">
+            <span>.003</span>
+            <img src={require('../Assets/freedash-mockup.svg')} alt="abundant mockup" />
+            <div className="page-info">
+              <p>Founder, Designer & Developer</p>
+              <h2><b>Freedash.io</b></h2>
+            </div>
+          </a>
         </Fade>
       </div>
 
