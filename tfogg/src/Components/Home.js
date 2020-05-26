@@ -4,6 +4,7 @@ import Landing from './Landing'
 import Camuro from './Camuro'
 import Freedash from './Freedash'
 import Abundant from './Abundant'
+import CaptionWriter from './CaptionWriter'
 import Skill from './Skill'
 import Gallery from './Gallery'
 import Contact from './Contact'
@@ -14,6 +15,7 @@ class Home extends Component {
     return(
       <div className="content">
         <Landing />
+        <CaptionWriter />
         <Camuro />
         <Freedash />
         <Abundant />

@@ -110,6 +110,9 @@ header h1{
   z-index: 100;
   padding-bottom: 80px;
 }
+.captionWriter{
+  background: #d42779;
+}
 .camuro{
   background: #FFBA4A;
 }
@@ -134,6 +137,9 @@ header h1{
 }
 .page.abundant span{
   color: #484848;
+}
+.captionWriter img{
+  padding-bottom: 60px;
 }
 .page img{
   width: 80%;
