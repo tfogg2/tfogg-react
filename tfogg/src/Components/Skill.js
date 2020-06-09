@@ -1,28 +1,12 @@
-import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade'
+import React, { Component } from "react"
+import Fade from "react-reveal/Fade"
+import Company from "./Company"
+import { Link } from "react-router-dom"
 
 class Skill extends Component {
-  render(){
-    return(
-
-      <div className="skill page">
-        <Fade left>
-          <a href="https://github.com/tfogg2/tfogg-backend" alt="tfogg.com on github" target="_blank">
-            <span>.004</span>
-            <div className="icons">
-              <div className="icon"><img src={require('../Assets/icons.svg')} alt="skill icons"/></div>
-            </div>
-            <div className="page-info">
-              <p>Some of My Skills</p>
-              <h2><b>Tfogg.com on Github</b></h2>
-            </div>
-          </a>
-        </Fade>
-      </div>
-
-    )
+  render() {
+    return <Company n=".005" classN="skill" role="Some of My Skills" title="Tfogg.com on Github" url="https://github.com/tfogg2/tfogg-react" imgSrc={require("../Assets/icons.svg")} />
   }
 }
 
-
-export default Skill;
+export default Skill

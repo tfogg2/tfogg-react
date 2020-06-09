@@ -1,26 +1,11 @@
-import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade'
+import React, { Component } from "react"
+import Fade from "react-reveal/Fade"
+import Company from "./Company"
 
 class Abundant extends Component {
-  render(){
-    return(
-
-      <div className="abundant page">
-        <Fade left>
-          <a href="#" alt="abundant life foods">
-            <span>.003</span>
-            <img src={require('../Assets/shopify-mockup.svg')} alt="abundant mockup" />
-            <div className="page-info">
-              <p>Shopify Developer</p>
-              <h2><b>Abundantlifefoods.com</b></h2>
-            </div>
-          </a>
-        </Fade>
-      </div>
-
-    )
+  render() {
+    return <Company n=".004" classN="abundant" role="Shopify Developer" title="Abundantlifefoods.com" url="https://www.Abundantlifefoods.com" imgSrc={require("../Assets/shopify-mockup.svg")} />
   }
 }
 
-
-export default Abundant;
+export default Abundant

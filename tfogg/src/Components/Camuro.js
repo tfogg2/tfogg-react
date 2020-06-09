@@ -1,26 +1,10 @@
-import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade'
+import React, { Component } from "react"
+import Company from "./Company"
 
 class Camuro extends Component {
-  render(){
-    return(
-
-      <div className="camuro page">
-        <Fade left>
-          <a href="https://www.camuro.co" alt="camuro.co" target="_blank">
-            <span>.001</span>
-            <img src={require('../Assets/camuro-mockup.svg')} alt="camuro mockup" />
-            <div className="page-info">
-              <p>Co-Founder, Designer & Developer</p>
-              <h2><b>Camuro.co</b></h2>
-            </div>
-          </a>
-        </Fade>
-      </div>
-
-    )
+  render() {
+    return <Company n=".002" classN="camuro" role="Co-Founder, Designer & Developer" title="Camuro.co" url="https://www.camuro.co" imgSrc={require("../Assets/camuro-mockup.svg")} />
   }
 }
 
-
-export default Camuro;
+export default Camuro

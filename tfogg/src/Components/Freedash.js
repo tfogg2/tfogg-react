@@ -1,26 +1,11 @@
-import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade'
+import React, { Component } from "react"
+import Fade from "react-reveal/Fade"
+import Company from "./Company"
 
 class Freedash extends Component {
-  render(){
-    return(
-
-      <div className="freedash page">
-        <Fade left>
-          <a href="http://freedash.io" alt="freedash.io" target="_blank">
-            <span>.002</span>
-            <img src={require('../Assets/freedash-mockup.svg')} alt="abundant mockup" />
-            <div className="page-info">
-              <p>Founder, Designer & Developer</p>
-              <h2><b>Freedash.io</b></h2>
-            </div>
-          </a>
-        </Fade>
-      </div>
-
-    )
+  render() {
+    return <Company n=".003" classN="freedash" role="Founder, Designer & Developer" title="Freedash.io" url="#" imgSrc={require("../Assets/freedash-mockup.svg")} />
   }
 }
 
-
-export default Freedash;
+export default Freedash
