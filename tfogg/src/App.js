@@ -1,18 +1,21 @@
-import React, { Component } from 'react';
-import './Assets/App.css';
-import Home from './Components/Home'
-import { BrowserRouter, Route, Link, Switch } from 'react-router-dom'
+import React, { Component } from "react"
+import "./Assets/App.css"
+import Home from "./Components/Home"
+import { LoadingContextProvider } from "./LoadingContext"
+import { Route, Switch } from "react-router-dom"
 
-class App extends Component {
-  render() {
-    return (
+const App = () => {
+  return (
+    <LoadingContextProvider>
       <div className="App">
         <Switch>
-          <Route path="/" render={() => <Home />}/>
+          <Route path="/">
+            <Home />
+          </Route>
         </Switch>
       </div>
-    );
-  }
+    </LoadingContextProvider>
+  )
 }
 
-export default App;
+export default App
