@@ -15,9 +15,6 @@ import Footer from "./Footer"
 const Home = () => {
   const isLoading = React.useContext(LoadingContext)
 
-  const useEffect = React.useEffect(())
-
-
   return (
     <div className="content">
       <Landing />
