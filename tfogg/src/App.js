@@ -6,15 +6,13 @@ import { Route, Switch } from "react-router-dom"
 
 const App = () => {
   return (
-    <LoadingContextProvider>
-      <div className="App">
-        <Switch>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </div>
-    </LoadingContextProvider>
+    <div className="App">
+      <Switch>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </div>
   )
 }
 
