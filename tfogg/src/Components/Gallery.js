@@ -30,10 +30,6 @@ class Gallery extends Component {
         thumbnail: require("../Assets/cat-mini.png")
       },
       {
-        original: require("../Assets/sky.png"),
-        thumbnail: require("../Assets/sky-mini.png")
-      },
-      {
         original: require("../Assets/bridge.png"),
         thumbnail: require("../Assets/bridge-mini.png")
       },
