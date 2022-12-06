@@ -14,7 +14,7 @@
     "code-point-at": "^1.1.0",
     "cookie-parser": "^1.4.5",
     "debug": "~2.6.9",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "extend": "^3.0.2",
     "forever-agent": "^0.6.1",
     "form-data": "^2.5.1",
